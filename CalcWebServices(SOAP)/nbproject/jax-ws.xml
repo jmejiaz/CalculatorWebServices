@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="WSMultSum">
+      <implementation-class>WebServices.WSMultSum</implementation-class>
+    </service>
+    <service name="WSRestDiv">
+      <implementation-class>WebServices.WSRestDiv</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+ 
+   <urls>
+    <url name ="REST">          
+        <sm>http://localhost:8082/mulsum</sm>
+        <rd>http://localhost:8085/divres</rd>
+    </url>
+    
+    <url name ="SOAP">          
+
+        <sm>http://localhost:8080/CalcWebServices(SOAP)/WSMultSum</sm>
+        <rd>http://localhost:8080/CalcWebServices(SOAP)/WSRestDiv</rd>
+    </url>
+   </urls>
+

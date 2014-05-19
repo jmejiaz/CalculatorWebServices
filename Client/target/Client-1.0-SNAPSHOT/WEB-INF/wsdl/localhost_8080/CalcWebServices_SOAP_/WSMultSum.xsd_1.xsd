@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://WebServices/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://WebServices/">
+
+<xs:element name="multiplicar" type="tns:multiplicar"/>
+
+<xs:element name="multiplicarResponse" type="tns:multiplicarResponse"/>
+
+<xs:element name="sumar" type="tns:sumar"/>
+
+<xs:element name="sumarResponse" type="tns:sumarResponse"/>
+
+<xs:complexType name="sumar">
+<xs:sequence>
+<xs:element name="first" type="xs:double"/>
+<xs:element name="second" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sumarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicar">
+<xs:sequence>
+<xs:element name="first" type="xs:double"/>
+<xs:element name="second" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

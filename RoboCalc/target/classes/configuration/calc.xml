@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webservices>
+	<webservice name= "REST">
+		<url>http://localhost:8082/mulsum</url>
+		<method>sumar</method>
+		
+			<p1>10</p1>
+			<p2>20</p2>
+		
+			<result>30.0</result>
+	</webservice>
+	
+	<webservice name= "REST">
+		<url>http://localhost:8085/divres</url>
+		<method>restar</method>
+		
+			<p1>10</p1>
+			<p2>2</p2>
+		
+			<result>8.0</result>
+	</webservice>
+	
+	<webservice name= "REST">
+		<url>http://localhost:8082/mulsum</url>
+		<method>multiplicar</method>
+		
+			<p1>10</p1>
+			<p2>20</p2>
+		
+			<result>200.0</result>
+	</webservice>
+	<webservice name= "REST">
+		<url>http://localhost:8085/divres</url>
+		<method>dividir</method>
+		
+			<p1>10</p1>
+			<p2>20</p2>
+		
+			<result>300.0</result>
+	</webservice>
+	
+	<webservice name= "SOAP">
+		<url>http://localhost:8080/CalcWebServices(SOAP)/WSRestDiv</url>
+		<method>restar</method>
+	
+		<p1>10</p1>
+		<p2>20</p2>
+		
+		<result>-10</result>
+		</webservice>
+</webservices>
